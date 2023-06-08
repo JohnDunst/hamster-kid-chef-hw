@@ -25,4 +25,46 @@ class Person{
     this.hampsters=[]
     this.bankaccount=0;
   }
+getName(){
+  return this.name;
+}
+getAge(){
+  return this.age;
+}
+getWeight() {
+  return this.weight;
+}
+greet(){
+    //why is this not correct?
+  console.log("hello, my name is" this.name);
+}
+eat() {
+  this.weight ++;
+  this.mood ++;
+}
+exercise(){
+
+  this.weight --;
+}
+ageUp(){
+  this.age ++;
+  this.height++;
+  this.weight ++;
+  this.mood --;
+  this.bankaccount + 10;
+}
+
+buyHampsters (Hamster) {
+  this.hamsters push (Hamster);
+  this.mood +10;
+  this.bankaccount - Hamster.getPrice();
+
+}
+
+
+
+
+
+
+
 }
