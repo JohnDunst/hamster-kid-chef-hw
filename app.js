@@ -60,8 +60,8 @@ buyHampsters (Hamster) {
   this.bankaccount - Hamster.getPrice();
 
 }
-
-
+// why is my const bad?
+const Timmy= new Person ("Timmy");
 
 
 
