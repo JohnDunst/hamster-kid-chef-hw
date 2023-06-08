@@ -68,3 +68,6 @@ const Timmy= new Person ("Timmy");
 
 
 }
+//gus
+const Gus = new Hampster ("GUS");
+Gus.owner = "Timmy"
