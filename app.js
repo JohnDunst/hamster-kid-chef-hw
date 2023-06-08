@@ -71,3 +71,13 @@ const Timmy= new Person ("Timmy");
 //gus
 const Gus = new Hampster ("GUS");
 Gus.owner = "Timmy"
+
+// dinner chef
+class Dinner { 
+constructor(appetizer, entree, dessert){
+  this.appetizer = appetizer;
+  this.entree = entree;
+  this.dessert = dessert;
+}
+}
+class chef
